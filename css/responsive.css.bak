@@ -161,6 +161,9 @@
 	.bus-content-3 {
      margin-top:30px;
 	}
+	.quiz-content i {
+    right:33px;
+	}
 }
 @media(min-width:768px){
 	.container{
