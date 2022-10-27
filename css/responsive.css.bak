@@ -260,19 +260,13 @@
     bottom:24px;
     left:90%;
    }
-   .logo-menu{
-		display:none !important;
-	}
 	.logo a {
-	position:relative;
-    font-size:60px;
-}
+    }
     .d-xs-block{
 		display:block !important;
 		margin-top:15px;
 	}
 	.button{
-	  position:absolute;
       text-decoration:none;
 	  padding:28px 18px;
 	  text-align:center;

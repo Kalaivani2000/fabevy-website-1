@@ -26,7 +26,7 @@
 						<a href="#" class="button">Get Started</a>
 				    </li>    
 				</div>
-				  <div class="logo-menu d-none col-md-9" >
+				  <div class="logo-menu >
 				    <ul class="nav">
 					    <li><a class="nav-list home" href="index.html">Home</a></li>
 						<li><a class="nav-list href="#">About</a></li>
@@ -548,7 +548,7 @@
 						    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
 							Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 			    </div>
-				<div class="row justify-content-center">
+				<div class="row">
 				        <div class="col-xs-12 col-md-6 col-lg-4">
 					       <div class="bus-content-1">
 						        <h3>Free</h3>
@@ -654,7 +654,7 @@
 							    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
 								Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
                     </div>
-			            <div class="row justify-content-center">
+			            <div class="row">
 			                <div class="col-xs-12 col-md-6 col-lg-3">
 			                    <div class="info-content">
 								    <div class="info-content-1">
