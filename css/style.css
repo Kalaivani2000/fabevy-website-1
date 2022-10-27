@@ -7,8 +7,9 @@ body{
 .container{
 	width:100%;
 	margin:0 auto;
-   padding-left:15px;
-   padding-right:15px;
+    padding-left:15px;
+    padding-right:15px;
+	overflow:hidden;
 }
 .row{
 	display:flex;
@@ -1126,7 +1127,7 @@ a.active-port{
 	    position:relative;
 }
 .info-content-1 img{
-	    width:105%;
+	    width:104%;
 		display:block;
 		border-radius:3px;
 }

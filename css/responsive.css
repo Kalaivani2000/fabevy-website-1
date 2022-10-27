@@ -62,16 +62,41 @@
 	}
 	.bus-content-1 {
      margin-bottom:20px;
+	 margin-left:-8px;
 	}
 	.bus-content-2 {
      margin-bottom:20px;
+	 margin-left:-8px;
 	}
 	.bus-content-3 {
      margin-bottom:20px;
+	 margin-left:-8px;
 	}
+	.foot-content-3 {
+    margin-left:-68px;
+    }
+	.email-content {
+    min-width: 158px;
+    }
+	.text{
+    margin-left:30px
+	}
+	.sub{
+	margin-right:42px;
+	}
+	.quiz-content i {
+    right:28px
+	}
+	.ft-content-2 {
+    padding-left:0px;
+}
+    .arrow{
+	left:80%;
+}
+	
 }
 
-/*@media(min-width:576px){
+@media(min-width:576px){
 		.container{
 			width:570px;
 			
@@ -124,7 +149,21 @@
 		  width:100%;
 		  padding:0 15px;
 	}
-
+    .foot-content-3 {
+    margin-left:-62px;
+	}
+	.text {
+    margin-left:42px;
+	}
+    .sub {
+    right: 198px;
+    }
+	.bus-content-3 {
+     margin-top:30px;
+	}
+	.quiz-content i {
+    right:33px;
+	}
 }
 @media(min-width:768px){
 	.container{
