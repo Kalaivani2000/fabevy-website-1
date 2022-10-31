@@ -1,15 +1,14 @@
 /*------------container & grid---------*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300&family=Poppins:wght@200;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500&family=Work+Sans:wght@100;400&display=swap');
 
-body{
+/*body{
 	overflow-x:hidden;
-}
+}*/
 .container{
 	width:100%;
 	margin:0 auto;
     padding-left:15px;
     padding-right:15px;
-	overflow:hidden;
 }
 .row{
 	display:flex;
@@ -120,14 +119,14 @@ body{
 	   background-color:#fff;
 	   box-shadow:1px -1px 18px -6px #ccc;
 	   left:0;
-	   top:100%;
-	   width:250px;
+	   top:243%;
+       min-width:165px;
 	   border-radius:10px;
 	   text-align:left;
-	   display:none;
-	   z-index:5;
-	  /* transform:translateY(30px);
-	   transition: all 0.6s ease;*/
+	   visibility:hidden;
+	   opacity:1;
+	   transform:translateY(-20px);
+	   transition: all 0.6s ease;
 	   
 }
 .dropdown-nav  li{
@@ -146,8 +145,8 @@ body{
 }
 .dropdown:hover .dropdown-nav{
 	display:block;
-	
-	#transform:translateY(0px);
+    visibility:visible;
+	transform:translateY(0px);
 	 
 }
 .dropdown2{
@@ -160,12 +159,12 @@ body{
 	   box-shadow:1px -1px 18px -6px #ccc;
 	   left:100%;
 	   top:100%;
-	   width:250px;
+	   min-width:165px;
 	   border-radius:10px;
 	   text-align:left;
 	   visibility:hidden;
 	   opacity:1;
-	   transform:translateX(30px);
+	   transform:translateX(-20px);
 	   transition: all 0.6s ease;
 	   
 }
@@ -853,7 +852,8 @@ a.active-port{
 	   font-size:18px;
 	   font-family:"Raleway", sans-serif;
        color:white;
-       padding:40px 0px 30px 141px;
+       padding:25px 25px;
+	   text-align:center;
        text-transform:uppercase;
 }
 .bus-content-1 h4{
@@ -916,7 +916,8 @@ a.active-port{
 	   font-size:18px;
 	   font-family:"Raleway", sans-serif;
        color:white;
-       padding:40px 0px 30px 122px;
+       padding:25px 25px;
+	   text-align:center;
        text-transform:uppercase;
 }
 .bus-content-2 h4{
@@ -979,7 +980,8 @@ a.active-port{
 	   font-size:18px;
 	   font-family:"Raleway", sans-serif;
        color:white;
-       padding:40px 0px 30px 109px;
+       padding:25px 25px;
+	   text-align:center;
        text-transform:uppercase;
 }
 .bus-content-3 h4{
