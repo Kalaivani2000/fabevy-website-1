@@ -119,7 +119,7 @@
 	   background-color:#fff;
 	   box-shadow:1px -1px 18px -6px #ccc;
 	   left:0;
-	   top:243%;
+	   top:100%;
        min-width:165px;
 	   border-radius:10px;
 	   text-align:left;
@@ -145,8 +145,8 @@
 }
 .dropdown:hover .dropdown-nav{
 	display:block;
-    visibility:visible;
-	transform:translateY(0px);
+	visibility:visible;
+    transform:translateY(0px);
 	 
 }
 .dropdown2{
@@ -1380,7 +1380,6 @@ a.active-port{
 .foot-content-2{
     margin-top:40px;
     margin-left:30px;
-	width:103%;
 }
 .foot-content-2 h3{
 	    font-size:16px;

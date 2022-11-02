@@ -74,23 +74,26 @@
 	}
 	.bus-content-2 {
      margin-bottom:20px;
-	 margin-left:-8px;
+	 margin-left: -8px;
 	}
 	.bus-content-3 {
      margin-bottom:20px;
 	 margin-left:-8px;
 	}
 	.foot-content-3 {
-    margin-left:-68px;
+    margin-left:-100px;
     }
+	.foot-content-2{
+	margin-left:0px;
+	}
 	.email-content {
     min-width: 158px;
     }
 	.text{
-    margin-left:30px
+    margin-left:5px
 	}
 	.sub{
-	margin-right:42px;
+	margin-right:64px;
 	}
 	.quiz-content i {
     right:28px;
@@ -102,6 +105,16 @@
     .arrow{
 	left:80%;
    }
+   .test-content p {
+    font-size: 12px;
+   }
+	.sup-content {
+     margin-bottom:0px;
+	}
+	.port-content p {
+    font-size: 13px;
+	}
+    
 }
 
 
@@ -162,6 +175,15 @@
     .foot-content-3 {
     margin-left:-62px;
 	}
+	.banner-content h2{
+	text-align:center;
+	}
+	.banner-content p{
+	text-align:center;
+	}
+	.nav-button{
+	text-align:center;
+	}
 	.text {
     margin-left:42px;
 	}
@@ -175,8 +197,11 @@
     right:33px;
 	}
 	.project-content {
-    margin-bottom:3px;
+    margin-bottom:0px;
     margin-left:30px;
+	}
+	.sup-content{
+	margin-bottom:0px;
 	}
     .foot-content-2 {
     margin-left: 10px;
@@ -297,8 +322,31 @@
     width: 103%;
 	}
 	.sub {
-    right: 422px;
+    right:74px;
 	}
+	.text{
+    margin-left:10px;
+	width:82%;
+	}
+	.bus-content-1{
+    width:312px;
+	margin-left:0px;
+   }
+   .bus-content-2{
+    width:312px;
+   }
+   .bus-content-3{
+    width:312px;
+	margin-top:0px;
+   }
+   .project-content{
+	width:218px;
+	margin-left:0px;
+   }
+   .ft-content-2{
+	margin-left:195px;
+   }
+	
 }
 
 
@@ -375,16 +423,37 @@
 		display:block!important;
 	}
 	.sub {
-    right: 110px;
+    right:71px;
    }
    .info-content-1 img {
     width: 105%;
    }
    .bus-content-3 {
-    margin-top: 0px
+    margin-top: 0px;
+	margin-left:-54px;
    }
    .name input {
     padding: 10px 22px; 
-}
-
+   }
+   .quiz-content i {
+    right: 130px;
+   }
+  .service-content {
+    min-height:0px;
+   }
+   .bus-content-1 {
+    margin-left:48px;
+   }
+   .ft-content-2{
+	margin-left:0px;
+   }
+   .banner-content h2{
+	text-align:left;
+	}
+	.banner-content p{
+	text-align:left;
+	}
+	.nav-button{
+	text-align:left;
+	}
 }   
