@@ -189,28 +189,28 @@
         <section class="project">
 		    <div class="container">
 			    <div class="row justify-content-center">
-			               <div class="col-xs-12 col-md-6 col-sm-4 col-lg-3">
+			               <div class="col-xs-12 col-md-6 col-sm-3 col-lg-3">
 			                    <div class="project-content">
 			                        <i class="icofont-wink-smile"></i>
 			                            <h2>232</h2>
 			                            <p>Happy Clients</p>
 			                    </div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-sm-4 col-lg-3">
+							<div class="col-xs-12 col-md-6 col-sm-3 col-lg-3">
 			                    <div class="project-content">
 			                        <i class="icofont-contacts"></i>
 			                            <h2>521</h2>
 			                            <p>Project</p>
 			                    </div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-sm-4 col-lg-3">
+							<div class="col-xs-12 col-md-6 col-sm-3 col-lg-3">
 			                    <div class="project-content">
 			                        <i class="icofont-headphone-alt"></i>
 			                            <h2>1463</h2>
 			                            <p>House of Support</p>
 			                    </div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-sm-4 col-lg-3">
+							<div class="col-xs-12 col-md-6 col-sm-3 col-lg-3">
 			                    <div class="project-content">
 			                        <i class="icofont-team"></i>
 			                            <h2>15</h2>

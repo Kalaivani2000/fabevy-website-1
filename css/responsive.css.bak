@@ -66,7 +66,6 @@
 	.project-content {
      margin-bottom:0px;
      margin-top: 60px;
-     margin-left:36px;
 	}
 	.bus-content-1 {
      margin-bottom:20px;
@@ -93,14 +92,27 @@
     margin-left:5px
 	}
 	.sub{
-	margin-right:64px;
+	margin-right:84px;
 	}
 	.quiz-content i {
     right:28px;
 	}
+	.subject input{
+	margin-left:0px;
+	width:100%;
+	}
+	.mesg textarea{
+    margin-left:0px;
+	width:100%;
+	}
+	.name input{
+	margin-left:0px;
+	width:100%;
+	}
 	.ft-content-2 {
     padding-left:0px;
 	padding-top:20px;
+	text-align:left;
    }
     .arrow{
 	left:80%;
@@ -187,9 +199,6 @@
 	.text {
     margin-left:42px;
 	}
-    .sub {
-    right: 198px;
-    }
 	.bus-content-3 {
      margin-top:30px;
 	}
@@ -198,7 +207,6 @@
 	}
 	.project-content {
     margin-bottom:0px;
-    margin-left:30px;
 	}
 	.sup-content{
 	margin-bottom:0px;
@@ -213,7 +221,7 @@
     margin-left:20px;
     }
 	.sub {
-    right:222px;
+    right:40px;
    }
    .arrow {
     bottom:24px;
@@ -340,11 +348,13 @@
 	margin-top:0px;
    }
    .project-content{
-	width:218px;
 	margin-left:0px;
    }
    .ft-content-2{
 	margin-left:195px;
+   }
+   .foot-content-3 p{
+	margin-top:0px;
    }
 	
 }
@@ -438,7 +448,7 @@
    .quiz-content i {
     right: 130px;
    }
-  .service-content {
+   .service-content {
     min-height:0px;
    }
    .bus-content-1 {
@@ -455,5 +465,8 @@
 	}
 	.nav-button{
 	text-align:left;
+	}
+	.arrow{
+      left:93%;
 	}
 }   
