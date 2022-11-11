@@ -202,7 +202,7 @@
 	 background-image:linear-gradient( rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url(../image/hero-bg.jpg);
      background-repeat:no-repeat;
      background-size:cover;
-     height:100vh;
+     height:80vh;
      background-position:center;
      padding-top:35px;	
      z-index:-1;	 
@@ -225,8 +225,7 @@
 }
 .button-bg{
 	  text-decoration:none;
-	  border:1px solid #e03a3c;
-	  padding:12px 25px;
+	  padding:15px 30px;
 	  text-align:center;
 	  border-radius:5px;
 	  background-color:#e03a3c;
@@ -239,8 +238,7 @@
 }
 .button-bg:hover{
      background-color:transparent;
-	 
-	 
+	 border:2px solid #fff;
 }
 
 /*-------------client section-----*/
@@ -277,6 +275,7 @@
 	 background-color:#222;
 	 z-index:-1;
 	 transform:skew(0deg,-3deg);
+	  margin-top: 58px;
 }
 .about{
 	  padding-top:120px;
@@ -346,7 +345,6 @@
 	  border:2px solid #fff;
 	  background-color:#fff;
 	  text-align:center;
-	  height:144px;
 	  margin-top:100px;
 	  box-shadow: 0px 7px 35px rgb(0 0 0 / 9%);
 	  border-radius:5px;
@@ -389,6 +387,9 @@
 }
 
 /*-------------support section-----*/
+.support{
+	margin-top:50px;
+}
 .sup-content-1{
 	    position:relative;
         border:1px solid #b9b9b9;
@@ -446,7 +447,9 @@
 		font-size:20px;
 		font-weight:500;
 		font-family:"Raleway", sans-serif;
-		
+}
+.sup-content i:hover{
+	    color:#e03a3c;
 }
 .sup-content p:hover{
 	    color:#e03a3c;
@@ -464,6 +467,12 @@
 		color:#7a7272f0;
 		padding-bottom:20px;
 		font-style:italic;
+}
+.sub-content-2{
+	   padding-top:30px;
+}
+.sub-content-3{
+	   padding-top:30px;
 }
 .sub-content-2 p {
 	    font-size:18px;
@@ -484,10 +493,10 @@
  }		
 
 /*-------------service section-----*/	
-.service{
-       background-color:black;
-	  
-}	
+.sect-shape{
+	 position:relative;
+	 z-index:1;
+}
 .sect-shape:after{
 	 content:"";
 	 position:absolute;
@@ -495,13 +504,15 @@
 	 top:0;
 	 width:100%;
 	 height:100%;
-	 background-color:#111111;
+	 background-color:#222;
 	 z-index:-1;
-	 transform:skew(0deg,-3deg);	
-	 margin-bottom:20px;
-	 margin-top:58px;
-	 
-}  
+	 transform:skew(0deg,-3deg);
+	 margin-top: 58px;
+}
+.service{
+       background-color:black;
+	  
+}	
 .ser-content h2{
 	    padding-bottom:20px;
 		margin-bottom:20px;
@@ -539,7 +550,7 @@
 		align-items:center;
 	    margin-bottom:8px;
 		margin-top:18px;
-		background-color:#222;
+		background-color:#2b2b2b;
 		border-radius:15px;
 }
 	
@@ -586,16 +597,7 @@
 /*-------------portfolio section-----*/	
 .portfolio{
       margin-top:140px;
-}
-.underline{
-	    width:50px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:-21px;
-}	  
+}  
 .port-content h2{
 	    padding-bottom:20px;
 		margin-bottom:20px;
@@ -717,15 +719,6 @@ a.active-port{
         font-size: 30px;
 		margin-top:52px;
 }
-.underline{
-	    width:50px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:-21px;
-}	 
 .test-content p{
 	    font-size:16px;
 	    line-height:2;
@@ -795,20 +788,6 @@ a.active-port{
 }	
 
 /*-------------business section-----*/	
-.sect-shape:after{
-	 content:"";
-	 position:absolute;
-	 left:0;
-	 top:0;
-	 width:100%;
-	 height:100%;
-	 background-color:#111111;
-	 z-index:-1;
-	 transform:skew(0deg,-3deg);	
-	 margin-bottom:20px;
-	 margin-top:4px;
-	 
-}  
 
 .business-content h2{
 	    padding-bottom:16px;
@@ -821,15 +800,6 @@ a.active-port{
         font-size: 30px;
 		margin-top:15px;
 }
-.underline{
-	    width:50px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:-21px;
-}	
 .business-content p{
 	    font-size:16px;
 	    line-height:2;
@@ -1037,15 +1007,6 @@ a.active-port{
         font-size: 30px;
 		margin-top:52px;
 }
-.underline{
-	    width:50px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:-21px;
-}
 .quiz-content {
         border-bottom:1px solid #ccc0c0;
 		padding:0px 24px 18px 0px;
@@ -1079,20 +1040,6 @@ a.active-port{
 
 
 /*-------------team section-----*/
-.sect-shape:after{
-	 content:"";
-	 position:absolute;
-	 left:0;
-	 top:0;
-	 width:100%;
-	 height:100%;
-	 background-color:#111111;
-	 z-index:-1;
-	 transform:skew(0deg,-3deg);	
-	 margin-bottom:20px;
-	 margin-top:58px;
-	 
-}  
 
 .team-content h2{
 	    padding-bottom:20px;
@@ -1104,15 +1051,6 @@ a.active-port{
 		font-weight:700;
         font-size: 30px;
 		margin-top:15px;
-}
-.underline{
-	    width:50px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:-21px;
 }
 .team-content p{
 	    font-size:16px;
@@ -1127,7 +1065,7 @@ a.active-port{
 		min-height:360px;
 		background-color:#fff;
 		box-shadow:0px 2px 12px rgb(0 0 0 / 8%);
-		border-radius:10px;
+		border-radius:5px;
 	    margin-bottom:30px;
 }
 .info-content-1{
@@ -1209,15 +1147,6 @@ a.active-port{
         font-size: 30px;
 		margin-top:52px;
 }
-.underline{
-	    width:50px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:-21px;
-}
 .contact-content p{
 	    font-size:16px;
 	    line-height:2;
@@ -1283,7 +1212,7 @@ a.active-port{
 		color:#848484;
 }
 .cont-content{
-	    padding:0px 12px 4px 0px;
+	    padding:0px 12px 0px 0px;
 		min-height:160px;
 		background-color:#fff;
 		box-shadow:3px 2px 19px #ccc;
@@ -1291,11 +1220,11 @@ a.active-port{
 	    margin-bottom:30px;
 }
 .cont-name{
-	   padding:35px 0px 0px 35px;
+	   padding:35px 0px 0px 10px;
 	   min-height:400px;
 }
 .name input{
-	  padding:15px 20px;
+	  padding:10px 30px;
 	  border-radius:5px;
 	  display:inline-block;
 	  border:1px solid #ccc;
@@ -1313,7 +1242,7 @@ a.active-port{
 	  margin-bottom:26px;
 }
 .mesg textarea{
-	  padding:15px 20px;
+	  padding:40px 20px;
 	  border-radius:5px;
 	  display:inline-block;
 	  border:1px solid #ccc;
@@ -1323,13 +1252,17 @@ a.active-port{
 }
 .buttons .button{
 	  text-decoration:none;
-	  padding:12px 20px;
+	  font-family:"Raleway", sans-serif;
+	  padding:12px 26px;
 	  text-align:center;
 	  border-radius:5px;
 	  background-color:#e03a3c;
-	  font-size:20px;
+	  font-size:16px;
 	  color:#fff;
 	  display:inline-block;
+}
+.buttons .button:hover{
+	 background: #e35052;
 }
 .buttons{
 	  text-align:center;
@@ -1383,15 +1316,6 @@ a.active-port{
 		color:#fff;
 		margin-bottom:30px;
 }
-.underline-2{
-	    width:24px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:0;
-		margin-right:auto;
-		margin-top:-20px;
-}
 .foot-content-2 p{
 	   padding:10px 0px 10px 0px;
 	   text-decoration:none;
@@ -1414,7 +1338,6 @@ a.active-port{
 }
 .foot-content-3 {
 	   margin-top:40px;
-       margin-left:30px;
 	   width:103%;
 }
 .foot-content-3 h3{
@@ -1422,35 +1345,21 @@ a.active-port{
 		font-family:"Raleway", sans-serif;
 		color:#fff;
 		margin-bottom:30px;
-		margin-left:100px;
 }
 .foot-content-3 p{
 	    font-size:15px;
 		font-family:"Raleway", sans-serif;
 		color:#fff;
-	    margin-left:100px;
-		margin-top:-16px;
 		line-height: 1.4;
-}
-.underline-3{
-	    width:24px;
-		height:3px;
-		background-color:#e03a3c;
-		margin-bottom:22px;
-		margin-left:100px;
-		margin-right:auto;
-		margin-top:-20px;
 }
 form{
 	  position: relative;
 }
 .text{
-	   width:54%;
 	   padding:10px 5px;
 	   border:1px solid #fff;
 	   border-radius:5px;
 	   margin-top: 20px;
-       margin-left: 124px;
 }
 .sub{
 	  position:absolute;
@@ -1502,6 +1411,15 @@ form{
 	   padding:10px 10px;
 	   border-radius:4px;
 	   margin-left:3px;
+}
+.underline-2 {
+    width: 24px;
+    height: 3px;
+    background-color: #e03a3c;
+    margin-bottom: 22px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: -20px;
 }
 .ft-content-2 a:hover{
 	   background-color:#e03a3c;

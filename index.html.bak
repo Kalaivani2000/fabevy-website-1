@@ -811,33 +811,29 @@
 				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-2">
 			                    <div class="foot-content-2">
 								    <h3>Useful Links</h3>
-									    <div class="underline-2"></div>
-										    <a href="#">
-											    <p><i class="icofont-curved-right"></i>Home</p>
-											    <p><i class="icofont-curved-right"></i>About us</p>
-						                        <p><i class="icofont-curved-right"></i>Services</p>
-		                                        <p><i class="icofont-curved-right"></i>Terms of service</p>
-	                                            <p><i class="icofont-curved-right"></i>Privacy policy</p>
-										    </a>
+									    <div class="underline"></div>
+											<a href="#"><p><i class="icofont-curved-right"></i>Home</p></a>
+											<a href="#"><p><i class="icofont-curved-right"></i>About us</p></a>
+						                    <a href="#"><p><i class="icofont-curved-right"></i>Services</p></a>
+		                                    <a href="#"><p><i class="icofont-curved-right"></i>Terms of service</p></a>
+	                                        <a href="#"><p><i class="icofont-curved-right"></i>Privacy policy</p></a>
                                 </div>
 			                </div>
-				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-2">
+				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-3">
 			                    <div class="foot-content-2">
 								    <h3>Our Services</h3>
-									    <div class="underline-2"></div>
-									        <a href="#">
-											    <p><i class="icofont-curved-right"></i>Web Design</p>
-											    <p><i class="icofont-curved-right"></i>Web Development</p>
-											    <p><i class="icofont-curved-right"></i>Product Management</p>
-											    <p><i class="icofont-curved-right"></i>Marketing</p>
-												<p><i class="icofont-curved-right"></i>Graphic Design</p>
-											</a>  
+									    <div class="underline"></div>
+											<a href="#"><p><i class="icofont-curved-right"></i>Web Design</p></a>
+											<a href="#"><p><i class="icofont-curved-right"></i>Web Development</p></a>
+											<a href="#"><p><i class="icofont-curved-right"></i>Product Management</p></a>
+											<a href="#"><p><i class="icofont-curved-right"></i>Marketing</p></a>
+										    <a href="#"><p><i class="icofont-curved-right"></i>Graphic Design</p></a> 
 				                </div>
 				            </div>
-				            <div class="col-xs-12 col-sm-6 col-lg-5">
+				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-4">
 			                    <div class="foot-content-3">
 								    <h3>Join Our Newsletter</h3>
-									<div class="underline-3"></div>
+									<div class="underline"></div>
 									<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 								</div>
 									<form>
