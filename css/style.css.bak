@@ -493,22 +493,6 @@
  }		
 
 /*-------------service section-----*/	
-.sect-shape{
-	 position:relative;
-	 z-index:1;
-}
-.sect-shape:after{
-	 content:"";
-	 position:absolute;
-	 left:0;
-	 top:0;
-	 width:100%;
-	 height:100%;
-	 background-color:#222;
-	 z-index:-1;
-	 transform:skew(0deg,-3deg);
-	 margin-top: 58px;
-}
 .service{
        background-color:black;
 	  
