@@ -117,16 +117,16 @@
 .dropdown-nav{
 	   position:absolute;
 	   background-color:#fff;
-	   box-shadow:1px -1px 18px -6px #ccc;
+	   box-shadow:1px -2px 18px -6px #ccc;
 	   left:0;
-	   top:30px;
-       min-width:165px;
+	   top:90%;
+       min-width:190px;
 	   border-radius:10px;
 	   text-align:left;
 	   visibility:hidden;
-	   opacity:1;
-	   transform:translateY(-20px);
-	   transition: all 0.3s ease;
+	   opacity:0;
+	   transform:translateY(20px);
+	   transition: all 0.5s ease;
 	   
 }
 .dropdown-nav  li{
@@ -144,7 +144,7 @@
 		text-align:left;
 }
 .dropdown:hover .dropdown-nav{
-	display:block;
+	opacity:1;
 	visibility:visible;
     transform:translateY(0px);
 	 
@@ -202,7 +202,7 @@
 	 background-image:linear-gradient( rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url(../image/hero-bg.jpg);
      background-repeat:no-repeat;
      background-size:cover;
-     height:100vh;
+     height:80vh;
      background-position:center;
      padding-top:35px;	
      z-index:-1;	 
