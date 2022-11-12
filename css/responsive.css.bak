@@ -439,7 +439,7 @@
 		display:none!important;
 	}
 	.banner{
-     height:80vh;
+     height:95vh;
 	}
 	.d-xs-none{
 		display:block!important;

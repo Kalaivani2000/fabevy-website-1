@@ -339,6 +339,9 @@
 	.d-sm-block{
 	   display:block!important;  
     }
+	.banner-content h2 {
+     padding-top:0px;
+	}
     .text-right{
 		display:none!important;
 	}
@@ -441,6 +444,9 @@
 	.banner{
      height:95vh;
 	}
+	.banner-content h2 {
+     padding-top: 39px; 
+    }
 	.d-xs-none{
 		display:block!important;
 	}
