@@ -66,6 +66,9 @@
         padding-top:0px;
         padding-bottom:0px;
 	}
+	.banner{
+		height:80vh;
+	}
 	.project-content {
      margin-bottom:0px;
      margin-top: 60px;
@@ -185,8 +188,10 @@
 		  width:100%;
 		  padding:0 15px;
 	}
-   
-    .foot-content-3 {
+	.banner{
+		height:55vh;
+	}
+   .foot-content-3 {
     margin-left:0px;
 	}
 	.banner-content h2{
@@ -220,9 +225,6 @@
    .arrow {
     bottom:24px;
     left:90%;
-   }
-   .banner {
-    height: 55vh;
    }
    .client-logo {
     padding: 0px 30px;
@@ -318,16 +320,19 @@
 	}
     .d-md-block{
 	   display:none;
-   }
+    }
     .d-xs-block{
 	  display:none;
-  }
+    }
    .d-none{
 	   display:none;
-	   }
+    }
 	.d-sm-block{
 	   display:block!important;  
-}
+    }
+	.banner{
+		height:55vh;
+	}
     .text-right{
 		display:none!important;
 	}
@@ -344,14 +349,11 @@
 	width:100%;
 	}
 	.bus-content-1{
-    width:312px;
 	margin-left:0px;
    }
    .bus-content-2{
-    width:312px;
    }
    .bus-content-3{
-    width:312px;
 	margin-top:0px;
    }
    .service-content {
@@ -459,9 +461,6 @@
    }
    .service-content {
     min-height:0px;
-   }
-   .bus-content-1 {
-    margin-left:48px;
    }
    .ft-content-2{
 	margin-left:0px;
