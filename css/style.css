@@ -202,7 +202,7 @@
 	 background-image:linear-gradient( rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url(../image/hero-bg.jpg);
      background-repeat:no-repeat;
      background-size:cover;
-     height:80vh;
+     height:100vh;
      background-position:center;
      padding-top:35px;	
      z-index:-1;	 
@@ -941,6 +941,7 @@ a.active-port{
 		border-radius:20px;
 		width:361px;
 		min-height:477px;
+		margin-left: -48px;
 }
 .bus-content-3 h3{
 	   font-size:18px;

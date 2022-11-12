@@ -550,7 +550,7 @@
 		align-items:center;
 	    margin-bottom:8px;
 		margin-top:18px;
-		background-color:#222;
+		background-color:#2b2b2b;
 		border-radius:15px;
 }
 	
@@ -941,6 +941,7 @@ a.active-port{
 		border-radius:20px;
 		width:361px;
 		min-height:477px;
+		margin-left: -48px;
 }
 .bus-content-3 h3{
 	   font-size:18px;
