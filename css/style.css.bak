@@ -811,7 +811,6 @@ a.active-port{
 .bus-content-1{
 		background-color:#2b2b2b;
 		border-radius:20px;
-		width:361px;
 		min-height:477px;
 }
 .bus-content-1 h3{
@@ -875,7 +874,6 @@ a.active-port{
 .bus-content-2{
 		background-color:#e03a3c;
 		border-radius:20px;
-		width:361px;
 		min-height:477px;
 }
 .bus-content-2 h3{
@@ -939,7 +937,6 @@ a.active-port{
 .bus-content-3{
 		background-color:#2b2b2b;
 		border-radius:20px;
-		width:361px;
 		min-height:477px;
 }
 .bus-content-3 h3{

@@ -24,7 +24,7 @@
 				<div class="col-xs-6  d-xs-block d-none col-md-6 d-md-block text-right">
 				    <a href="#" class="button">Get Started</a>
 				</div>
-				  <div class="logo-menu d-xs-none d-md-none d-sm-block col-sm-10 col-lg-9" >
+				  <div class="logo-menu d-xs-none d-md-none d-sm-none col-sm-10 col-lg-9" >
 				    <ul class="nav">
 					    <li><a class="nav-list active" href="index.html">Home</a></li>
 						<li><a class="nav-list href="#">About</a></li>
@@ -811,7 +811,7 @@
 				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-2">
 			                    <div class="foot-content-2">
 								    <h3>Useful Links</h3>
-									    <div class="underline"></div>
+									    <div class="underline-2"></div>
 											<a href="#"><p><i class="icofont-curved-right"></i>Home</p></a>
 											<a href="#"><p><i class="icofont-curved-right"></i>About us</p></a>
 						                    <a href="#"><p><i class="icofont-curved-right"></i>Services</p></a>
@@ -822,7 +822,7 @@
 				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-3">
 			                    <div class="foot-content-2">
 								    <h3>Our Services</h3>
-									    <div class="underline"></div>
+									    <div class="underline-2"></div>
 											<a href="#"><p><i class="icofont-curved-right"></i>Web Design</p></a>
 											<a href="#"><p><i class="icofont-curved-right"></i>Web Development</p></a>
 											<a href="#"><p><i class="icofont-curved-right"></i>Product Management</p></a>
@@ -833,7 +833,7 @@
 				            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-4">
 			                    <div class="foot-content-3">
 								    <h3>Join Our Newsletter</h3>
-									<div class="underline"></div>
+									<div class="underline-2"></div>
 									<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 								</div>
 									<form>
