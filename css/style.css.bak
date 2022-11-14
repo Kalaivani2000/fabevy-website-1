@@ -1,9 +1,9 @@
 /*------------container & grid---------*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300&family=Poppins:wght@200;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500&family=Work+Sans:wght@100;400&display=swap');
 
-body{
-	padding-left: 10px;
-}
+/*body{
+	overflow-x:hidden;
+}*/
 .container{
 	width:100%;
 	margin:0 auto;
@@ -716,33 +716,42 @@ a.active-port{
 		box-shadow:0px 2px 12px rgb(0 0 0 / 8%);
 		border-radius:15px;
 		margin-bottom:30px;
+		position:relative;
 }
-.monial-content img{
-	    position:relative;
+.monial-info {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	padding-top: 20px;
+    padding-left: 20px;
+}
+.monial-info img{
         width:30%;
         height:auto;
-        border-radius:5px;
-        padding:45px 0px 0px 27px;
+        border-radius: 8px;
 }		
-.monial-content h2{ 
+.monial-info h3{ 
 	    font-size:20px;
 		font-weight:700;
 		font-family:"Raleway", sans-serif;
-		margin-top:-66px;
-        padding-left:15px;
 		color:#2b2424d4;
+		padding-top: 25px;
+		padding-left: 23px;
 }
-.monial-content h3{
+.monial-info h4{
+	    position: absolute;
+	    left: 40%;
+        top: 60%;
 	    font-size:16px;
 		font-weight:400;
         font-family:"Raleway", sans-serif;
-		padding-left:122px;
-		padding-bottom:60px;
-        margin-top:-37px;
         color:#ccc;
 }
 .monial-content p{
-	    display:block;
+	    position: absolute;
+	    left: 6%;
+	    bottom: 6%;
 	    font-size:16px;
 		font-weight:400;
 		font-style:italic;
@@ -750,8 +759,6 @@ a.active-port{
 		text-align: left;
 	    line-height:1.6;
 		color:#7a7272;
-		margin-left:30px;
-		margin-top:-34px;
 }
 .monial-content i{
 		padding:0px 4px 0px 2px;

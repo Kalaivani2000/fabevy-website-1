@@ -132,6 +132,9 @@
 	.contact{
 	padding:0px;
 	}
+	.cont-name {
+    min-height:450px;
+	}
 	.contact-content h2{
     margin-top: 85px;
 	}
@@ -382,7 +385,7 @@
 @media(min-width:1200px){
 	.container{
 		width:1170px;
-		
+		padding-left: 10px;
 	}
 	.col-lg-1{
 		  width:8.33%;
