@@ -78,6 +78,9 @@
 .logo-menu .nav > li{
 	  display:inline-block;
 }
+.nav{
+	cursor:pointer;
+}
 .nav > li > a.nav-list{
 	  display:block;
 	  color:black;

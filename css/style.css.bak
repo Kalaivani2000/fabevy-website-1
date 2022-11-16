@@ -236,7 +236,7 @@
 	  display:inline-block;
 }
 .button-bg{
-	  font-size:20px;
+	  font-size:18px;
 	  font-family:"Raleway", sans-serif;
 }
 .button-bg:hover{
