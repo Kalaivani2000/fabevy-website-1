@@ -273,6 +273,9 @@
    .d-md-block{
      display:block !important;
 	}
+	.about-content{
+	   text-align:center;
+	}
 	.sup-content{
 		position:relative;
 	}
@@ -414,7 +417,7 @@
 		left:30px;
 	}
 	.sup-content-1 i {
-    left: 26px;
+       left: 26px;
 	}
 	.name input {
     padding: 18px 121px;
@@ -526,6 +529,9 @@
 	}
 	.d-md-none{
 		display:block!important;
+	}
+	.flex{
+		flex-direction:unset!important;
 	}
 	.sup-content{
 		position:relative;
